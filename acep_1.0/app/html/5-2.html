@@ -1,0 +1,122 @@
+<!-- <meta http-equiv="refresh" content="0;url=../index.html#artboard1"> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5-2</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<style type="text/css">
+    #content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .select_title {
+        /* position: absolute; */
+        width: 447px;
+        /* top: 26.9%;
+        left: 38.4%; */
+        font-family: PingFangSC-Semibold;
+        font-size: 45px;
+        color: #C1C2DC;
+        letter-spacing: -2.18px;
+        line-height: 58px;
+    }
+
+    .select_com,
+    .select_baud {
+        background: #23252E;
+        /* position: absolute;
+        left: 26%;
+        top: 39.6%; */
+        width: 39vw;
+        height: 60px;
+        border: 2px solid #525365;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        background: #eee;
+        /* justify-content: space-between; */
+    }
+
+    .select_com::after {
+        content: url(../images/ic_1_normal.png);
+        /* position: absolute;
+        right: 31px; */
+    }
+
+    .selected {
+        margin-left: 31px;
+        font-family: PingFangSC-Regular;
+        font-size: 18px;
+        color: #8F90AE;
+        letter-spacing: -0.68px;
+        line-height: 18px;
+    }
+
+    .select_button {
+        /* position: absolute;
+        top: 39.6%;
+        left: 65.6%; */
+        height: 60px;
+        width: 200px;
+        background: #525365;
+        box-shadow: inset 0 1px 0 0 #868797;
+        /* border-radius: 0 10px 10px 0;
+        border-radius: 0px 10px 10px 0px; */
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .font {
+        font-family: PingFangSC-Medium;
+        font-size: 21px;
+        color: #CDCEE3;
+        letter-spacing: -0.79px;
+    }
+</style>
+
+<body>
+    <div id="content">
+        <div>
+            <div class="select_title">选择产品配置端口</div>
+            <!-- <div class="select_com">
+                <p class="selected">请选择产品配置端口...</p>
+            </div> -->
+            <select name="select_com" id="select_com" class="select_com"></select>
+        </div>
+        
+
+        <div>
+            <div class="select_title">选择波特率</div>
+            <select name="select_baud" id="select_baud" class="select_baud">
+                <option value="9600">9600</option>
+                <option value="38400">38400</option>
+                <option value="57600">57600</option>
+                <option value="115200">115200</option>
+            </select>
+        </div>
+
+        <button class="select_button" id="button"><span class="font">连接</span></button>
+    </div>
+
+    
+
+
+</body>
+
+<script>
+    require('../js/renderer1.js');
+</script>
+
+</html>

@@ -1,0 +1,357 @@
+<!-- <meta http-equiv="refresh" content="0;url=../index.html#artboard4"> -->
+<html>
+
+<head>
+    <title>5-5</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<style type="text/css">
+#content_left {
+        position: absolute;
+        left: 100px;
+    }
+
+    #content_left_title {
+        position: absolute;
+        width: 270px;
+        text-align: left;
+        font-weight: bold;
+        color: #CDCEE3;
+        top: 370px;
+    }
+
+    #content_left_detail {
+        position: absolute;
+        width: 270px;
+        color: #8F90AE;
+        font-size: 14px;
+        top: 406px;
+    }
+
+    #content_right {
+       position: absolute;
+    width: 500px;
+    height: 680px;
+    left: 420px;
+    top: 79px;
+    border-radius: 10px;
+    color: #8F90AE ;
+    background-color: #23252E;
+    overflow-x: hidden;
+    overflow-y:auto;
+    }
+    #content_right::-webkit-scrollbar{
+      width: 10px;     
+      height: 100px;
+    }
+    #content_right::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius:10px;
+    }
+    #content_right::-webkit-scrollbar-thumb {
+    background-color:#5856D6;
+    width: 10px;     
+    border-radius: 5px;
+}
+    #content_right_list {
+        position: relative;
+        display: flex;
+        left: 25px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    #content_right_title {
+        line-height: 40px;
+    }
+
+#content_right2 {
+       position: absolute;
+    width: 500px;
+    height: 680px;
+    left: 940px;
+    top: 79px;
+    border-radius: 10px;
+    color: #8F90AE ;
+    background-color: #23252E;
+    overflow-x: hidden;
+    overflow-y:auto;
+    }
+    #content_right2::-webkit-scrollbar{
+      width: 10px;     
+      height: 100px;
+    }
+    #content_right2::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius:10px;
+    }
+    #content_right2::-webkit-scrollbar-thumb {
+    background-color:#5856D6;
+    width: 10px;     
+    border-radius: 5px;
+}
+    #content_right_list2 {
+        position: relative;
+        display: flex;
+        left: 25px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    #content_right_title2 {
+        line-height: 40px;
+    }
+
+
+
+
+
+
+
+    
+    #content_button {
+        position: absolute;
+        left: 420px;
+        top: 789px;
+    }
+
+    #content_foot {
+        position: absolute;
+        top: 900px;
+    }
+
+    #content_foot_list {
+        position: absolute;
+        width: 1720px;
+        height: 130px;
+        left: 100px;
+        top: 30px;
+    }
+
+    #content_foot_detail {
+        width: 1720px;
+        height: 14px;
+        line-height: 14px;
+        display: flex;
+        color: #474859;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .testswitch {
+    position: absolute;
+    left:138px;
+    top:11px;
+    float: left; 
+    width: 44px;
+    margin: 0;
+    -webkit-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select: none;
+}
+ 
+.testswitch-checkbox {
+    display: none;
+}
+ 
+.testswitch-label {
+    display: block; 
+    overflow: hidden; 
+    cursor: pointer;
+    border-radius: 20px;
+}
+ 
+.testswitch-inner {
+    display: block; 
+    width: 200%; 
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+ 
+.testswitch-inner::before, .testswitch-inner::after {
+    display: block; 
+    float: right; 
+    width: 50%; 
+    height: 22px; 
+    padding: 0; 
+    line-height: 22px;
+    font-size: 12px; 
+    color: white; 
+    font-family: 
+    Trebuchet, Arial, sans-serif; 
+    font-weight: bold;
+    box-sizing: border-box;
+}
+ 
+.testswitch-inner::after {
+    content: attr(data-on);
+    padding-left: 10px;
+    background-color: #5856D6; 
+    color:#C1C2DC;
+}
+ 
+.testswitch-inner::before {
+    content: attr(data-off);
+    padding-right: 10px;
+    background-color:#7D7E99 ; 
+    color: #C1C2DC;
+    text-align: right;
+}
+ 
+.testswitch-switch {
+    position: absolute; 
+    display: block; 
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+    background: #C1C2DC;
+    top: 50%;
+    margin-top: -6px;
+    right: 28px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+ 
+.testswitch-checkbox:checked + .testswitch-label .testswitch-inner {
+    margin-left: 0;
+}
+ 
+.testswitch-checkbox:checked + .testswitch-label .testswitch-switch {
+    right: 0px; 
+}
+
+    #content_foot_list {
+        overflow-y: scroll;
+        color: #eeeeee;
+    }
+    
+</style>
+
+<body>
+    <div id="content">
+        <div id="content_left">
+            <img style="position:absolute;top: 80px;" src="../images/product/pro_4.png" />
+            <div id="content_left_title">吸顶式16A通断控制器</div>
+            <div id="content_left_detail">产品信息</div>
+        </div>
+    
+            <div id="content_right">
+                <div id="content_right_list" style="margin-top: 30px;">
+                    <div id="content_right_title">产品名称：</div>
+                    <input type="text" name="pname" value="菊花链灯光控制器"  />
+                </div>
+               
+                <div id="content_right_list">
+                    <div id="content_right_title">开关：</div>
+                    <input type="text" name="pname"  />
+                    <div class="testswitch">
+                        <input class="testswitch-checkbox" id="onoffswitch" type="checkbox">
+                        <label class="testswitch-label" for="onoffswitch" id="isopen">
+                            <span class="testswitch-inner" data-on="开" data-off="关"></span>
+                            <span class="testswitch-switch"></span>
+                        </label>
+                    </div>
+                </div>
+                <div id="content_right_list">
+                    <div id="content_right_title">wifi_ssid：</div>
+                    <input type="text" value="wifi 名称"  id="wifi_ssid">
+                </div>
+
+                <div id="content_right_list">
+                    <div id="content_right_title">wifi_password:</div>
+                    <input type="text" name="pname" value="" id="wifi_password" />
+                </div>
+
+                <div id="content_right_list">
+                    <div id="content_right_title">wifi_auth:</div>
+                    <input type="text" name="pname" value=""  id="wifi_auth" />
+                </div>
+
+                <div id="content_right_list">
+                    <div id="content_right_title">wifi_dhcp:</div>
+                    <input type="text" name="pname" value=""  id="wifi_dhcp" />
+                </div>
+
+                <div id="content_right_list">
+                    <div id="content_right_title">wifi_ip:</div>
+                    <input type="text" name="pname" value=""  id="wifi_ip" />
+                </div>
+
+                <div id="content_right_list">
+                    <div id="content_right_title">wifi_gateway:</div>
+                    <input type="text" name="pname" value=""  id="wifi_gateway" />
+                </div>
+
+                <div id="content_right_list">
+                    <div id="content_right_title">wifi_netmask:</div>
+                    <input type="text" name="pname" value=""  id="wifi_netmask" />
+                </div>
+
+                <div id="content_right_list">
+                    <div id="content_right_title">wifi_dns1:</div>
+                    <input type="text" name="pname" value="" id="wifi_dns1" />
+                </div>
+
+                <div id="content_right_list">
+                    <div id="content_right_title">wifi_dns2:</div>
+                    <input type="text" name="pname" value="" id="wifi_dns2" />
+                </div>
+
+                
+        </div>
+
+<div id="content_right2">
+    <div id="content_right_list2" style="margin-top: 30px;">
+        <div id="content_right_title2">产品名称：</div>
+        <input type="text" name="pname" value="菊花链灯光控制器" />
+        </div>        
+        <div id="content_right_list2">
+            <div id="content_right_title2">mqtt_server:</div>
+            <input type="text" name="pname" value="" id="mqtt_server" />
+        </div>
+        
+        <div id="content_right_list2">
+            <div id="content_right_title2">mqtt_port:</div>
+            <input type="text" name="pname" value="" id="mqtt_port" />
+        </div>
+        
+        <div id="content_right_list2">
+            <div id="content_right_title2">mqtt_client_id:</div>
+            <input type="text" name="pname" value="" id="mqtt_client_id" />
+        </div>
+        
+        <div id="content_right_list2">
+            <div id="content_right_title2">mqtt_username:</div>
+            <input type="text" name="pname" value="" id="mqtt_username" />
+        </div>
+        
+        <div id="content_right_list2">
+            <div id="content_right_title2">mqtt_password:</div>
+            <input type="text" name="pname" value="" id="mqtt_password" />
+        </div>
+    </div>
+
+
+        
+        <div id="content_button">
+            <button style="background-color: #5856D6;" type="button" id="submit">提交</button>
+            <button type="button" id="cancel">取消</button>
+            <button type="button" id="reset">重置</button>
+            <button type="button" id="read_old_info">读取历史信息</button>
+            <button type="button" id="reboot">重启设备</button>
+	
+        </div>
+        <div id="content_foot">
+            <img src="../images/bt_1_normal.png" />
+            <img style="position:absolute;left: 1644px;top: 14px;" src="../images/ic_4_normal.png" />
+            <div style="position:absolute;left: 1672px;top: 11px;font-size: 16px;color: #7C7C97;">下载操作记录</div>
+            <div id="content_foot_list">
+
+            </div>
+        </div>
+        <script>
+            require('../js/renderer2.js');
+        </script>
+</body>
+
+</html>
